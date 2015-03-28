@@ -13,7 +13,7 @@ Add lita-twilio to your Lita instance's Gemfile:
 There's a bit of Yak-shaving to do here, sorry.
 
 ### Required attributes
-* **default_room** (`String`) - The room or person Lita will message on receipt of incoming SMS Default: `#team`.
+* **default_room** (`String`) - The room or person Lita will message on receipt of incoming SMS.
 * **account_sid** (`String`) Your Twilio account's sid.
 * **auth_token** (`String`) Your Twilio account's auth_token.
 * **phone_number** (`String`) Your Twilio account's phone_number.
@@ -21,7 +21,7 @@ There's a bit of Yak-shaving to do here, sorry.
 
 ### Twilio Account Setup
 * If you have the free account, you'll need to manually add and verify numbers to which you want to send.
-* Go to ```https://www.twilio.com/user/account/phone-numbers/incoming``` and change the ```Request URL``` to ```http://yourdomain.com/twilio??token=VALUE-OF-YOUR-CONFIG-SERVER_TOKEN```
+* Go to ```https://www.twilio.com/user/account/phone-numbers/incoming``` and change the ```Request URL``` under messages to ```http://yourdomain.com/twilio?token=VALUE-OF-YOUR-CONFIG-SERVER_TOKEN```.
 
 ## Usage
 
