@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/chriswoodrich/lita-twilio.svg?branch=master)](https://travis-ci.org/chriswoodrich/lita-twilio)  [![Coverage Status](https://coveralls.io/repos/chriswoodrich/lita-twilio/badge.svg)](https://coveralls.io/r/chriswoodrich/lita-twilio)
+[![Build Status](https://travis-ci.org/chriswoodrich/lita-twilio.svg?branch=master)](https://travis-ci.org/chriswoodrich/lita-twilio)  [![Coverage Status](https://coveralls.io/repos/chriswoodrich/lita-twilio/badge.svg)](https://coveralls.io/r/chriswoodrich/lita-twilio) [![Gem Version](https://badge.fury.io/rb/lita-twilio.svg)](http://badge.fury.io/rb/lita-twilio)
 
 # lita-twilio
 
