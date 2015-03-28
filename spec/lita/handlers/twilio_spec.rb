@@ -25,7 +25,7 @@ describe Lita::Handlers::Twilio, lita_handler: true do
     let(:params) { {'Body' => 'Hi Lita!', 'From' => 'Jimmy'} }
     let(:response) { Rack::Response.new }
     it 'sends alerts user to the received message' do
-      response = http.post("/twilio?token=#{ENV['SERVER_TOKEN']}", params.to_json)
+      http.post("/twilio?token=#{ENV['SERVER_TOKEN']}", params.to_json)
       expect(replies.last).to include('Hi Lita!')
     end
   end
@@ -34,7 +34,7 @@ describe Lita::Handlers::Twilio, lita_handler: true do
     it "Outputs a message that a message was sent, given proper params" do
       VCR.use_cassette('sms') do
         t = ENV["TEST_RECIPIENT_PHONE_NUMBER"]
-        response = send_command("sms #{t} this is a test message")
+        send_command("sms #{t} this is a test message")
         expect(replies.last).to eq "Sent message to #{t}"
       end
     end
