@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-
 gem 'lita'
 gem 'rack-test'
 gem 'twilio-ruby'
