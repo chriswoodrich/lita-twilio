@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["cwoodrich@gmail.com"]
   spec.description   = "Twilio integration for Lita"
   spec.summary       = "Send and receive SMS with from your Lita-configured chat room"
-  spec.homepage      = "www.github.org/chriswoodrich/lita-twilio"
+  spec.homepage      = "https://github.org/chriswoodrich/lita-twilio"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
