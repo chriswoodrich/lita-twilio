@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/chriswoodrich/lita-twilio.svg?branch=master)](https://travis-ci.org/chriswoodrich/lita-twilio)
+
 # lita-twilio
 
 Lita-Twilio integrates your Twilio account into Lita. Send and receive text messages from your company chat room.
