@@ -31,6 +31,10 @@ There's a bit of Yak-shaving to do here, sorry.
 * Phone numbers must be strictly in the XXX-XXX-XXXX format, and sms or SMS (case insensitive) must be used as a command to Litabot.
 * Any incoming messages to your Twilio account will be displayed with the message and sender.
 
+## Contributing
+
+Pull requests are welcome! The plan for version > 1.0 will support some of Twilio's other functionality: send and receive telephone calls, and I'm open to any suggestions.  Please use the ```issues``` to file bug reports.
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
